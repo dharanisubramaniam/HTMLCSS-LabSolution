@@ -1,0 +1,104 @@
+body {
+  font-family: "Luckiest Guy", cursive;
+  margin: 0;
+  height: 85vh;
+  display: flex;
+  align-items: space-around;
+  justify-content: center;
+  flex-direction: column;
+}
+.percentage {
+  text-align: center;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+p {
+  margin: 0px 25px;
+}
+h1 {
+  font-family: "Luckiest Guy", cursive;
+  color: grey;
+  text-shadow: 2px 2px grey;
+  text-align: center;
+}
+.box {
+  width: 300px;
+  height: 400px;
+  margin: auto;
+  overflow: hidden;
+  padding-left: 40px;
+  border-radius: 5px;
+  position: relative;
+  background-color: lightgrey;
+}
+.container {
+  width: 80%;
+  height: 80%;
+  display: flex;
+  justify-content: space-around;
+  position: absolute;
+  bottom: 0;
+}
+
+.graph-container {
+  background-color: white;
+  width: 60px;
+  height: 100%;
+  border-radius: 5px;
+}
+
+.m {
+  height: 30%;
+  position: absolute;
+  bottom: 0;
+  width: 60px;
+  max-width: 100%;
+
+  background: gray;
+
+  animation: up1 1s ease-in;
+}
+@keyframes up1 {
+  0% {
+    height: 0;
+  }
+  100% {
+    height: 30%;
+  }
+}
+.tu {
+  height: 40%;
+  max-width: 100%;
+  background: gray;
+  position: absolute;
+  bottom: 0;
+  width: 60px;
+  animation: up2 1s ease-in;
+}
+@keyframes up2 {
+  0% {
+    height: 0;
+  }
+  100% {
+    height: 40%;
+  }
+}
+.w {
+  height: 80%;
+  max-width: 100%;
+  background: gray;
+  position: absolute;
+  bottom: 0;
+  width: 60px;
+  animation: up3 1s ease-in;
+}
+@keyframes up3 {
+  0% {
+    height: 0;
+  }
+  100% {
+    height: 80%;
+  }
+}
